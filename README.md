@@ -20,11 +20,7 @@
 - Clean UI
 - Neon/Cyberpunk styled Homepage
 
-Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
-
-All blocked? Check out [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
-
-Offline? Check out [`offline.md`](https://github.com/nate-games/nate-games.github.io/blob/main/offline.md)
+Website blocked? See [links.md](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
 ### Contributing
 

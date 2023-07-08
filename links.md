@@ -13,7 +13,7 @@
 
 Vercel doesnt support /home links so you will need to add .html for a few pages.
 
-All blocked? Read [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
+All blocked? Read [deploying.md](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
 
 ### Community Links
 No one has submitted one, if you do have one submit them [here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
