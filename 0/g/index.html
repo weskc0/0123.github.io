@@ -5,6 +5,45 @@
   <title>𝗚𝗔𝗠𝗘𝗦 | nate-games</title>
   <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
   <link rel="stylesheet" href="../assets/css/games.css" />
+  <style>
+
+    .search-input {
+      margin-top: 10px;
+      border-radius: 30px;
+      border: none;
+      width: 25%;
+      height: 60px;
+      background-color: rgba(30, 30, 30, 0.8);
+      color: white;
+      text-align: center;
+      font-size: 24px;
+      outline: none;
+      font-family: Arial, sans-serif;
+    }
+
+    .search-input::placeholder {
+      opacity: 1;
+    }
+  </style>
+  <script>
+function search() {
+  var input = document.getElementById("search-bar").value.toLowerCase();
+  if (input === "") {
+    location.reload(); // Reload the page when the search bar is empty
+  } else {
+    var cards = document.getElementsByClassName("game-card");
+    for (var i = 0; i < cards.length; i++) {
+      var title = cards[i].getElementsByTagName("h3")[0].innerText.toLowerCase();
+      if (title.indexOf(input) > -1) {
+        cards[i].style.display = "";
+      } else {
+        cards[i].style.display = "none";
+      }
+    }
+  }
+}
+
+  </script>
 </head>
 
 <body>
@@ -19,7 +58,18 @@
       </button>
       <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
     </nav>
-  </header>
+  </header> 
+<center>
+  <!-- Replace "oninput="nofunction()" to "search()" at 10 stars. -->
+    <input type="text" id="search-bar" placeholder="Search..." oninput="nofunction()" class="search-input">
+
+  <h3>Search bar won't function & v1.30 won't come out until 10 stars.</h3>
+
+  <div class="button-container" style="margin-bottom: 20px;">
+    <a class="github-button" href="https://github.com/nate-games/nate-games.github.io" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star nate-games/nate-games.github.io on GitHub">Star</a>
+    <script async defer src="/0/assets/js/buttons.js"></script>
+  </div>
+</center>
   <div class="game-container">
     <div class="game-card" onclick="window.location.href='./1v1lol/'">
       <img src="./1v1lol/game/1v1lol.jpg" />
