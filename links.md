@@ -1,9 +1,5 @@
 ### Official Links
 - [GitHub](https://nate-games.github.io/)
-- [Netlify](https://nate-games.netlify.app/)
-- [Netlify 2](https://mathskills.netlify.app)
-- [Netlify 3](https://school-tutor.netlify.app/)
-- [Netlify 4](https://singular-entremet-ed4501.netlify.app/)
 - [Vercel](https://nate-games.vercel.app)
 - [Vercel 2](https://learn-science.vercel.app/)
 - [Vercel 3](https://math-edu.vercel.app/)
