@@ -18,7 +18,8 @@
 - 3 unblockers/proxies
 - Soundboard with sounds & music
 - Clean UI
-- Neon/Cyberpunk styled Homepage
+- Cyberpunk styled Homepage
+- Protected with  <a href="https://cloudflare.com"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/e18ba54d623d732825dcea9d173ef4bab519b8ce/0/assets/img/reCAPTCHA/CF_logo_horizontal_whitetype.svg" width="auto" height="20" style="vertical-align: middle;"></a>
 
 Website blocked? See [links.md](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
