@@ -20,5 +20,4 @@ Sites that have my website embedded.
 - [Itch.io](https://nate-games.itch.io/play)
 
 ### CDN
-- [CDN](https://cdn-ngs.netlify.app/)
-- [CDN 2](https://nate-games.github.io/ng-assets/)
+- [CDN](https://cdn-ngs.vercel.app/)
