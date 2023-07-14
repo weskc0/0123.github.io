@@ -3,7 +3,6 @@
 - [Vercel](https://nate-games.vercel.app)
 - [Vercel 2](https://learn-science.vercel.app/)
 - [Vercel 3](https://math-edu.vercel.app/)
-- [Vercel 4](https://nate-games-git-main-nate-games2.vercel.app)
 #### Shortened URLs
 - [Bitly](https://bit.ly/nate-games)
 
@@ -20,5 +19,4 @@ Sites that have my website embedded.
 - [Itch.io](https://nate-games.itch.io/play)
 
 ### CDN
-- [CDN](https://cdn-ngs.netlify.app/)
-- [CDN 2](https://nate-games.github.io/ng-assets/)
+- [CDN](https://cdn-ngs.vercel.app/)
