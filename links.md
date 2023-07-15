@@ -3,6 +3,9 @@
 - [Vercel](https://nate-games.vercel.app)
 - [Vercel 2](https://learn-science.vercel.app/)
 - [Vercel 3](https://math-edu.vercel.app/)
+- [Google Sites](https://sites.google.com/view/nates-unblocked)
+- [Replit](https://nate-games.repl.co/)
+- [Itch.io](https://nate-games.itch.io/play)
 #### Shortened URLs
 - [Bitly](https://bit.ly/nate-games)
 
@@ -17,10 +20,6 @@ There should be 2 links both should work [Here](https://raw.githack.com/)
 ### Community Links
 No one has submitted one, if you do have one submit them [here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
 
-### Embeds
-Sites that have my website embedded.
-- [Replit](https://nate-games.repl.co/)
-- [Itch.io](https://nate-games.itch.io/play)
 ### CDN
 - [Vercel CDN](https://cdn-ngs.vercel.app/)
 - [Vercel CDN 2](https://cdn-ngs-git-main-alt-nategames.vercel.app)
