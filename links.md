@@ -21,8 +21,10 @@ No one has submitted one, if you do have one submit them [here](https://docs.goo
 Sites that have my website embedded.
 - [Replit](https://nate-games.repl.co/)
 - [Itch.io](https://nate-games.itch.io/play)
-https://2abf2471.cdn-ngs.pages.dev
 ### CDN
 - [Vercel CDN](https://cdn-ngs.vercel.app/)
+- [Vercel CDN 2](https://cdn-ngs-git-main-alt-nategames.vercel.app)
+- [Vercel CDN 3](https://cdn-jfjcqac62-alt-nategames.vercel.app)
+- [Vercel CDN 4](https://cdn-ngs-alt-nategames.vercel.app)
 - [Cloudflare CDN](https://cdn-ngs.pages.dev/)
 - [Cloudflare CDN 2](https://2abf2471.cdn-ngs.pages.dev)
