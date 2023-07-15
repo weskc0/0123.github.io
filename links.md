@@ -25,4 +25,4 @@ https://2abf2471.cdn-ngs.pages.dev
 ### CDN
 - [Vercel CDN](https://cdn-ngs.vercel.app/)
 - [Cloudflare CDN](https://cdn-ngs.pages.dev/)
-- [Cloudflare CDN 2(https://2abf2471.cdn-ngs.pages.dev)
+- [Cloudflare CDN 2](https://2abf2471.cdn-ngs.pages.dev)
