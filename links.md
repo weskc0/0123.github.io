@@ -6,15 +6,8 @@
 - [Google Sites](https://sites.google.com/view/nates-unblocked)
 - [Replit](https://nate-games.repl.co/)
 - [Itch.io](https://nate-games.itch.io/play)
-#### Shortened URLs
-- [Bitly](https://bit.ly/nate-games)
-
-Vercel doesnt support /home links so you will need to add .html for a few pages.
 
 All blocked? Read [How to Deploy](https://github.com/nate-games/nate-games.github.io/tree/main#deploying)
-
-### Community Links
-No one has submitted one, if you do have one submit them [here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
 
 ### CDN
 - [Vercel CDN](https://cdn-ngs.vercel.app/)
