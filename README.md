@@ -38,8 +38,7 @@ These are the only ones supported by nate-games, other ones will not work.
 
 Coming Soon... Cloudflare Pages!
 
-### Deploying via GitHub Pages
-Fork the
+### GitHub Pages
 - Fork the repository. 
 - Name it *username*.github.io
 - To publish it, follow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch" target="_blank">these</a> steps.
@@ -63,4 +62,4 @@ All blocked? Read [How to Deploy](#deploying)
 - [Cloudflare CDN](https://cdn-ngs.pages.dev/)
 - [Cloudflare CDN 2](https://2abf2471.cdn-ngs.pages.dev)
 ## License
-[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt#view)
+[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt)
