@@ -1,6 +1,6 @@
 <p align="center">
 <kbd>
-<a href="https://nate-games.github.io/home">
+<a href="https://bit.ly/nate-games">
 <img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/favicon.png"></a>
 </kbd>
 </p>
@@ -11,7 +11,7 @@
 > **Note**
 > **160+ Games & Apps!, Best existing unblocked games site!**
 
-Website blocked? See [links.md](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
+Website blocked? View [links](#links)
 
 # Features
 - 160+ games & apps
@@ -44,6 +44,23 @@ Fork the
 - Name it *username*.github.io
 - To publish it, follow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch" target="_blank">these</a> steps.
 
+## Links
+- [GitHub](https://nate-games.github.io/)
+- [Vercel](https://nate-games.vercel.app)
+- [Vercel 2](https://learn-science.vercel.app/)
+- [Vercel 3](https://math-edu.vercel.app/)
+- [Google Sites](https://sites.google.com/view/nates-unblocked)
+- [Replit](https://nate-games.repl.co/)
+- [Itch.io](https://nate-games.itch.io/play)
 
+All blocked? Read [How to Deploy](#deploying)
+
+### CDN
+- [Vercel CDN](https://cdn-ngs.vercel.app/)
+- [Vercel CDN 2](https://cdn-ngs-git-main-alt-nategames.vercel.app)
+- [Vercel CDN 3](https://cdn-jfjcqac62-alt-nategames.vercel.app)
+- [Vercel CDN 4](https://cdn-ngs-alt-nategames.vercel.app)
+- [Cloudflare CDN](https://cdn-ngs.pages.dev/)
+- [Cloudflare CDN 2](https://2abf2471.cdn-ngs.pages.dev)
 ## License
 [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt#view)
