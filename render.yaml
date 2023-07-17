@@ -2,7 +2,7 @@ services:
   # A Docker web service
   - type: web
     name: nate-games
-    runtime: docker
+    runtime: static
     repo: https://github.com/nate-games/nate-games.github.io.git
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter instance type)
