@@ -6,3 +6,4 @@ services:
     repo: https://github.com/nate-games/nate-games.github.io.git
     branch: main
     healthCheckPath: /
+    staticPublishPath: .
