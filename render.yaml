@@ -4,6 +4,5 @@ services:
     name: nate-games
     runtime: static
     repo: https://github.com/nate-games/nate-games.github.io.git
-    plan: free # optional (defaults to starter instance type)
     branch: main
     healthCheckPath: /
