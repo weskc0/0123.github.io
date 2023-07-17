@@ -1,2 +1,2 @@
 language = "html"
-run = "python -m http.server 8000"
+run = "npx http-server"
