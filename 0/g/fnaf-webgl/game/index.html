@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Five Nights At Freddy's</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/FNAF1WebGL.json", {onProgress: UnityProgress});
-    </script>
+    <meta charset="utf-8" />
+    <title>FNAF [WebGL] | nate-games</title>
+    <link rel="shortcut icon" href="splash.jpg" type="image/x-icon">
+    <style>
+      /* iframe no border fullscreen */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      iframe {
+        border: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Five Nights At Freddy's</div>
-      </div>
-    </div>
+    <iframe
+      src="https://4acddad2-09ac-4328-8e48-32f78ed9b3cd.id.repl.co/"
+    ></iframe>
   </body>
-</html><script defer src="https://static.itch.io/htmlgame.js" type="text/javascript"></script>
+</html>

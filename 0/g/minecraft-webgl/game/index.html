@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Minecraft [WebGL]</title>
-    <link rel="shortcut icon" href="./splash.png">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/output.json", {onProgress: UnityProgress});
-    </script>
+    <meta charset="utf-8" />
+    <title>Minecraft [WebGL] | nate-games</title>
+    <link rel="shortcut icon" href="splash.jpg" type="image/x-icon">
+    <style>
+      /* iframe no border fullscreen */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      iframe {
+        border: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Minecraft WebGL</div>
-      </div>
-    </div>
+    <iframe
+      src="https://4a946457-c09f-4510-aa50-6388c5bebd32.id.repl.co/"
+    ></iframe>
   </body>
 </html>
