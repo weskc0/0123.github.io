@@ -28,7 +28,7 @@ If you have deployed it on one of these services send me the link [Here](https:/
 ### Free services
 These are the only ones supported by nate-games, other ones will not work. You can use GitHub pages too.
 
-<a href="https://app.netlify.com/start"><img src="https://camo.githubusercontent.com/6812f65116af08d710eca27246e2d7dfaa721132d258a67ea040530e1d30d165/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f6e65746c6966792e737667" alt="Netlify" /></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/nate-games/nate-games.github.io"><img src="https://camo.githubusercontent.com/6812f65116af08d710eca27246e2d7dfaa721132d258a67ea040530e1d30d165/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f6e65746c6966792e737667" alt="Netlify" /></a>
 <a href="https://replit.com/github/nate-games/nate-games.github.io"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" alt="Replit" /></a>
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/nate-games/nate-games.github.io"><img src="https://camo.githubusercontent.com/070945ad10e9641e23cf5a0a24ed7230d39f92377af4a8e6bd0102aa4ebfd9b2/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f76657263656c2e737667" alt="Vercel" /></a>
 
