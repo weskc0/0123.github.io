@@ -41,7 +41,7 @@ Cloudflare pages coming soon!
 - Fork the repository.
 - Name it *username*.github.io
 - To publish it, follow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch" target="_blank">these</a> steps.
-
+- 
 ## Links
 - [nate-games.github.io](https://nate-games.github.io/)
 - [nate-games.vercel.app](https://nate-games.vercel.app)
@@ -50,6 +50,7 @@ Cloudflare pages coming soon!
 - [sites.google.com](https://sites.google.com/view/nates-unblocked)
 - [nate-games.repl.co](https://nate-games.repl.co/)
 - [nate-games.itch.io](https://nate-games.itch.io/play)
+- [cf-nate.pages.dev](https://cf-nate.pages.dev/)
 
 All blocked? Read [How to Deploy](#deploying)
 
