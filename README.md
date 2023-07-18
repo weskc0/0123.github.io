@@ -13,8 +13,6 @@
 
 Website blocked? View [links](#links)
 
-When I finnally feel like I am finished with adding games I will make nate-games for replit.
-
 # Features
 - 160+ games & apps
 - Search bar
