@@ -17,9 +17,7 @@ Website blocked? View [links](#links)
 - 160+ games & apps
 - Search bar
 - Clean UI
-- Protected with  <a href="https://cloudflare.com"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/e18ba54d623d732825dcea9d173ef4bab519b8ce/0/assets/img/reCAPTCHA/CF_logo_horizontal_whitetype.svg" width="auto" height="18" style="vertical-align: middle;"></a>
+- Protected with  <a href="https://cloudflare.com"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/e18ba54d623d732825dcea9d173ef4bab519b8ce/0/assets/img/reCAPTCHA/CF_logo_horizontal_whitetype.svg" width="auto" height="18" style="vertical-align: middle;"></a> reCAPTCHA
 - [GPL-3.0 License](/LICENSE.txt)
 - Blocked? [View more Links](https://github.com/nate-games/nate-games.github.io/wiki/Links)
 - All Blocked? [View Deploying](https://github.com/nate-games/nate-games.github.io/wiki/Deploying)
-
-I tried to keep the README.md small so I moved it to the wiki.
