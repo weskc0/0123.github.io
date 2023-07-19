@@ -48,6 +48,9 @@ These are the only ones supported by nate-games, other ones will not work. You c
 - [nate-games.itch.io](https://nate-games.itch.io/play)
 - [cf-nate.pages.dev](https://cf-nate.pages.dev/)
 - [nate-games-iu27.onrender.com](https://nate-games-iu27.onrender.com/)
+- [ng-replit.nate-games.repl.co](https://ng-replit.nate-games.repl.co)
+- [ng-replit--nate-games.repl.co](https://ng-replit--nate-games.repl.co)
+- [a466d0d8-8447-4143-843d-62df19e12867.id.repl.co](https://a466d0d8-8447-4143-843d-62df19e12867.id.repl.co)
 
 All blocked? Read [How to Deploy](#deploying)
 
