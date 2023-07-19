@@ -21,4 +21,5 @@ Website blocked? View [links](#links)
 - [GPL-3.0 License](/LICENSE.txt)
 - Blocked? [View more Links](https://github.com/nate-games/nate-games.github.io/wiki/Links)
 - All Blocked? [View Deploying](https://github.com/nate-games/nate-games.github.io/wiki/Deploying)
+
 I tried to keep the README.md small so I moved it to the wiki.
