@@ -35,6 +35,7 @@ These are the only ones supported by nate-games, other ones will not work. You c
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/nate-games/nate-games.github.io"><img src="https://camo.githubusercontent.com/070945ad10e9641e23cf5a0a24ed7230d39f92377af4a8e6bd0102aa4ebfd9b2/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f76657263656c2e737667" alt="Vercel" /></a>
 <a href="https://render.com/deploy?repo=https://github.com/nate-games/nate-games.github.io"><img src="https://camo.githubusercontent.com/f893a13ee397f1e5dfc5f4ae1280a4667ba61e2ee623a0c688436f61523431c5/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f72656e6465722e737667" alt="Render" /></a>
 
+Cloudflare Pages is supported but they haven't made a button yet.
 ### Paid Services
 
 <a href="https://railway.app/new/template?template=https://github.com/BinBashBanana/deploy-buttons"><img src="https://camo.githubusercontent.com/44adf65830f9eeecb9a8e4ab0ff42c4675ca5fac750f0ec923abb86d0d8bedd1/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f7261696c7761792e737667" alt="Railway" /></a>
@@ -45,19 +46,10 @@ These are the only ones supported by nate-games, other ones will not work. You c
 - [math-edu.vercel.app](https://math-edu.vercel.app/)
 - [sites.google.com](https://sites.google.com/view/nates-unblocked)
 - [nate-games.repl.co](https://nate-games.repl.co/)
-- [nate-games.itch.io](https://nate-games.itch.io/play)
 - [cf-nate.pages.dev](https://cf-nate.pages.dev/)
-- [nate-games-iu27.onrender.com](https://nate-games-iu27.onrender.com/)
-- [ng-replit.nate-games.repl.co](https://ng-replit.nate-games.repl.co)
-- [ng-replit--nate-games.repl.co](https://ng-replit--nate-games.repl.co)
-- [a466d0d8-8447-4143-843d-62df19e12867.id.repl.co](https://a466d0d8-8447-4143-843d-62df19e12867.id.repl.co)
 
 All blocked? Read [How to Deploy](#deploying)
 
 ### CDN
 - [cdn-ngs.vercel.app](https://cdn-ngs.vercel.app/)
-- [cdn-ngs-git-main-alt-nategames.vercel.app](https://cdn-ngs-git-main-alt-nategames.vercel.app)
-- [cdn-jfjcqac62-alt-nategames.vercel.app](https://cdn-jfjcqac62-alt-nategames.vercel.app)
-- [cdn-ngs-alt-nategames.vercel.app](https://cdn-ngs-alt-nategames.vercel.app)
 - [cdn-ngs.pages.dev](https://cdn-ngs.pages.dev/)
-- [2abf2471.cdn-ngs.pages.dev](https://2abf2471.cdn-ngs.pages.dev)
