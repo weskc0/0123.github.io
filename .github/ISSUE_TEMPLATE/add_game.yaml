@@ -7,6 +7,14 @@ body:
   - type: input
     id: name
     attributes:
+      label: Rating
+      description: You do not have to fill this out. But overall how do you rate nate-games?
+      placeholder: 0-10
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
       label: Game Name
       description: What's the game called? [Used for the Games Page]
       placeholder: 1v1.LOL
