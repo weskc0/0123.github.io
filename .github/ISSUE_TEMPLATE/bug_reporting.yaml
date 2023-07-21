@@ -7,15 +7,15 @@ body:
   - type: input
     id: name
     attributes:
-      label: Page Name
-      description: What was the <title> of the page called? 
-      placeholder: Lorem ipsum dolor sit amet...
+      label: empty
+      description: emptr
+      placeholder: empty
     validations:
       required: true
   - type: input
     id: url
     attributes:
-      label: Error URL
+      label: Page URL
       description: Where did the Error occur?
       placeholder: https://example.com/home
     validations:
