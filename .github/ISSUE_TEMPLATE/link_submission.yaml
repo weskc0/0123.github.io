@@ -39,7 +39,7 @@ body:
     id: description
     attributes:
       label: Comment
-      description: Empty Field
-      placeholder: If you chose Other as an Error type please describe the issue.
+      description: If you have another thing to say about this, leave a comment
+      placeholder: Lorem ipsum dolor sit amet...
     validations:
       required: false
