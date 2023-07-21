@@ -29,7 +29,7 @@ body:
         - HTML5
         - Flash
         - Unity/WebGL
-        - Three.JS
+        - Three.js
         - Other
         - Don't Know
     validations:
