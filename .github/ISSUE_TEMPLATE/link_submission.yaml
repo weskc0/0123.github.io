@@ -1,0 +1,45 @@
+name: Link Submission 🔗
+description: Submit a Link you deployed
+title: "[Link Submission]: <title>"
+labels:
+  - Bug-Report
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Rating
+      description: You do not have to fill this out. But overall how do you rate nate-games?
+      placeholder: 0-10
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: What is the URL? Paste 📋 it Below.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Service
+      description: What Deployment service did you use?
+      options:
+        - GitHub Pages
+        - Cloudflare Pages
+        - Netlify
+        - Vercel
+        - Railway
+        - Render
+        - Replit
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Comment
+      description: Empty Field
+      placeholder: If you chose Other as an Error type please describe the issue.
+    validations:
+      required: false
