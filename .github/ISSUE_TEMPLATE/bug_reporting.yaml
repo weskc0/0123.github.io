@@ -1,0 +1,43 @@
+name: Report a Bug
+description: File a Bug to be fixed ⚒️
+title: "[Bug Reporting]: <title>"
+labels:
+  - Bug-Report
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Game Name
+      description: What's the game called? [Used for the Games Page]
+      placeholder: 1v1.LOL
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 
+      description: Where did the Error occur?
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Game Type
+      description: What game engine is used for the game?
+      options:
+        - HTML5
+        - Flash
+        - Unity/WebGL
+        - Other
+        - Don't Know
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Comment
+      description: If you have another thing to say about this, leave a comment
+      placeholder: Lorem ipsum dolor sit amet...
+    validations:
+      required: true
