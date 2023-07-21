@@ -1,0 +1,47 @@
+name: Game recommendation 💡
+description: Add a game to be added to the website.
+title: "Game Recommendation: "
+labels:
+  - Add-Game
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name of Game
+      description: Whats the game called? [Used for the Games Page]
+      placeholder: 1v1.LOL
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Game Engine
+      description: >-
+      What game engine is used for the game?
+        quicker.
+      options:
+        - HTML5
+        - Flash
+        - Unity/WebGL
+        - Other
+        - Don't Know
+    validations:
+      required: false
+        - type: input
+    id: url
+    attributes:
+      label: URL of the Game
+      description: >-
+      A URL is needed to compile the source code of the game, if there isn't an existing one.
+      placeholder: URL
+    validations:
+      required: true
+        - type: textarea
+    id: description
+    attributes:
+      label: Comment
+      description: If you have another thing to say about this, leave a comment
+      placeholder: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    validations:
+      required: false
