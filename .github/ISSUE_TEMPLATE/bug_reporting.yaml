@@ -7,9 +7,9 @@ body:
   - type: input
     id: name
     attributes:
-      label: Game Name
+      label: Page Name
       description: What's the game called? [Used for the Games Page]
-      placeholder: 1v1.LOL
+      placeholder: Flash Opener
     validations:
       required: true
   - type: input
@@ -17,7 +17,7 @@ body:
     attributes:
       label: Error URL
       description: Where did the Error occur?
-      placeholder: https://example.com/
+      placeholder: https://example.com/home
     validations:
       required: true
   - type: dropdown
