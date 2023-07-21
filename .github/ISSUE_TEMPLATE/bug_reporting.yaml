@@ -36,7 +36,7 @@ body:
     id: description
     attributes:
       label: Explain
-      description: Empty Field
+      description: If you did'nt just type "None"
       placeholder: If you chose Other as an Error type please describe the issue.
     validations:
       required: true
