@@ -25,14 +25,14 @@ body:
     id: type
     attributes:
       label: Game Type
-      description: >- 
-      What game engine is used for the game?
+      description: >-
+        What game engine is used for the game?
       options:
         - HTML5
         - Flash
         - Unity/WebGL
         - Other
-        - Dont Know
+        - Don't Know
     validations:
       required: true
   - type: textarea
