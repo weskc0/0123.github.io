@@ -18,8 +18,7 @@ body:
       label: Game Engine
       description: >-
       What game engine is used for the game?
-        quicker.
-      options:
+    options:
         - HTML5
         - Flash
         - Unity/WebGL
