@@ -15,7 +15,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: 
+      label: Error URL
       description: Where did the Error occur?
       placeholder: https://example.com/
     validations:
