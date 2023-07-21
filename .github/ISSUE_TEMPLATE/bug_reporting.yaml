@@ -11,7 +11,7 @@ body:
       description: emptr
       placeholder: empty
     validations:
-      required: true
+      required: false
   - type: input
     id: url
     attributes:
