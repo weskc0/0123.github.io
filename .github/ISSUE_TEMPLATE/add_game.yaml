@@ -8,7 +8,7 @@ body:
     id: name
     attributes:
       label: Game Name
-      description: Whats the game called? [Used for the Games Page]
+      description: What's the game called? [Used for the Games Page]
       placeholder: 1v1.LOL
     validations:
       required: true
@@ -16,8 +16,7 @@ body:
     id: url
     attributes:
       label: URL of the Game
-      description: >-
-        A URL is needed to compile the source code of the game, if there isn't an existing one.
+      description: A URL is needed to compile the source code of the game, if there isn't an existing one.
       placeholder: https://example.com/
     validations:
       required: true
@@ -25,8 +24,7 @@ body:
     id: type
     attributes:
       label: Game Type
-      description: >-
-        What game engine is used for the game?
+      description: What game engine is used for the game?
       options:
         - HTML5
         - Flash
@@ -40,7 +38,6 @@ body:
     attributes:
       label: Comment
       description: If you have another thing to say about this, leave a comment
-      placeholder: >-
-      Lorem ipsum dolor sit amet...
+      placeholder: Lorem ipsum dolor sit amet...
     validations:
       required: true
