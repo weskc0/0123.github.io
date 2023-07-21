@@ -8,8 +8,8 @@ body:
     id: name
     attributes:
       label: Page Name
-      description: What's the game called? [Used for the Games Page]
-      placeholder: Flash Opener
+      description: What was the <title> of the page called? 
+      placeholder: Lorem ipsum dolor sit amet...
     validations:
       required: true
   - type: input
