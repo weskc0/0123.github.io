@@ -1,10 +1,10 @@
 name: Link Submission 🔗
 description: Submit a Link you deployed
 title: "[Link Submission]: <title>"
-description: For nate-games URL wiki
 labels:
   - Bug-Report
 body:
+description: For nate-games URL wiki
   - type: input
     id: name
     attributes:
