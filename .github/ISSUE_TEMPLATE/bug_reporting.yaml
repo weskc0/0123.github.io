@@ -23,14 +23,13 @@ body:
   - type: dropdown
     id: type
     attributes:
-      label: Game Type
-      description: What game engine is used for the game?
+      label: Error Type
+      description: What type of Error Happened?
       options:
-        - HTML5
-        - Flash
-        - Unity/WebGL
+        - Wrong <title> Name
+        - Wrong Favicon
+        - Something is Off
         - Other
-        - Don't Know
     validations:
       required: true
   - type: textarea
