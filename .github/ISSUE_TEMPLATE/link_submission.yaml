@@ -4,7 +4,7 @@ title: "[Link Submission]: <title>"
 labels:
   - Bug-Report
 body:
-description: For nate-games URL wiki
+- description: For nate-games URL wiki
   - type: input
     id: name
     attributes:
