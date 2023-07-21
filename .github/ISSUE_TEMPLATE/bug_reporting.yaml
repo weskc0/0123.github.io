@@ -7,9 +7,9 @@ body:
   - type: input
     id: name
     attributes:
-      label: empty
-      description: emptr
-      placeholder: empty
+      label: Rating
+      description: You do not have to fill this out. But overall how do you rate nate-games?
+      placeholder: 0-10
     validations:
       required: false
   - type: input
