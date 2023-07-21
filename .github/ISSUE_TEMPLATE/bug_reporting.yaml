@@ -28,7 +28,7 @@ body:
       options:
         - Wrong <title> Name
         - Wrong Favicon
-        - Something is Off
+        - No Game Page
         - Other
     validations:
       required: true
