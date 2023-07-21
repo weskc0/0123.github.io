@@ -37,6 +37,6 @@ body:
     attributes:
       label: Explain
       description: Empty Field
-      placeholder: If you chose Issue please describe the issue.
+      placeholder: If you chose Other as an Error type please describe the issue.
     validations:
       required: true
