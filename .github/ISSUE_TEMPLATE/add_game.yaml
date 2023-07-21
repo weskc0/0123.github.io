@@ -12,6 +12,15 @@ body:
       placeholder: 1v1.LOL
     validations:
       required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL of the Game
+      description: >-
+        A URL is needed to compile the source code of the game, if there isn't an existing one.
+      placeholder: https://example.com/
+    validations:
+      required: true
   - type: dropdown
     id: type
     attributes:
@@ -24,15 +33,6 @@ body:
         - Unity/WebGL
         - Other
         - Don't Know
-    validations:
-      required: true
-        - type: input
-    id: url
-    attributes:
-      label: URL of the Game
-      description: >-
-        A URL is needed to compile the source code of the game, if there isn't an existing one.
-      placeholder: https://example.com/
     validations:
       required: true
   - type: textarea
