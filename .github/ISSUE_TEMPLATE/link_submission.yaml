@@ -34,7 +34,7 @@ body:
         - Render
         - Replit
     validations:
-      required: false
+      required: true
   - type: textarea
     id: description
     attributes:
