@@ -5,7 +5,7 @@ labels:
   - Add-Game
 body:
   - type: input
-    id: name
+    id: rating
     attributes:
       label: Rating
       description: You do not have to fill this out. But overall how do you rate nate-games?
@@ -13,7 +13,7 @@ body:
     validations:
       required: false
   - type: input
-    id: name
+    id: g-name
     attributes:
       label: Game Name
       description: What's the game called? [Used for the Games Page]
