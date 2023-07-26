@@ -32,7 +32,9 @@
             } else {
                 var cards = document.getElementsByClassName("game-card");
                 for (var i = 0; i < cards.length; i++) {
-                    var title = cards[i].getElementsByTagName("h3")[0].innerText.toLowerCase();
+                    var title = cards[i]
+                        .getElementsByTagName("h3")[0]
+                        .innerText.toLowerCase();
                     if (title.indexOf(input) > -1) {
                         cards[i].style.display = "";
                     } else {
@@ -47,18 +49,30 @@
 <body>
     <header class="header">
         <div class="logo">
-            <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
+            <button class="menu-item" onclick="window.location.href='/'">
+                𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀
+            </button>
         </div>
         <nav class="menu">
-            <button class="menu-item" onclick="window.location.href='/0/g/'">Games</button>
+            <button class="menu-item" onclick="window.location.href='/0/g/'">
+                Games
+            </button>
             <button class="menu-item" onclick="window.location.href='/0/a/'">
-        Apps
-      </button>
-            <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
+                Apps
+            </button>
+            <button class="menu-item" onclick="window.location.href='/0/ruffle/'">
+                Flash Opener
+            </button>
         </nav>
+        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+            new Crate({
+                server: '1127379738969767997',
+                channel: '1127379740093857865',
+            })
+        </script>
     </header>
     <center>
-        <input type="text" id="search-bar" placeholder="Search..." oninput="search()" class="search-input">
+        <input type="text" id="search-bar" placeholder="Search..." oninput="search()" class="search-input" />
     </center>
     <div class="game-container">
         <div class="game-card" onclick="window.location.href='./1v1lol/'">
@@ -364,6 +378,14 @@
         <div class="game-card" onclick="window.location.href='./elasticman/'">
             <img src="./elasticman/game/elastic-face.jpg" />
             <h3>Elastic Man</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='pvz/'">
+            <img src="https://static.wikia.nocookie.net/plantsvszombies/images/2/29/IPodTouchicon4.png" />
+            <h3>Plants vs. Zombies</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='pvz-html/'">
+            <img src="https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/Plantsvs.ZombiesFREEicon.png" />
+            <h3>Plants vs. Zombies [HTML]</h3>
         </div>
         <div class="game-card" onclick="window.location.href='./BloonsTD/'">
             <img src="./BloonsTD/game/splash.webp" />

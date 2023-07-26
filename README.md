@@ -8,9 +8,8 @@
 <h1 align="center">nate-games</h1>
 <p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
 
-
 > **Note**
-> **160+ Games & Apps!, Best existing unblocked games site!**
+> **I won't be updating for 1 week! Enjoy v1.50 while you can.**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
