@@ -14,7 +14,7 @@
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
 # Features
-- 160+ games & apps
+- 190+ games & apps
 - Search bar
 - Adobe Flash
 - HTML5 Games
