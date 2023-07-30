@@ -22,8 +22,3 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - Three.js
 - Clean UI
 - [GPL-3.0 License](/LICENSE.txt)
-# Search engines
-- Bing
-- Yahoo
-
-![preview](https://github.com/nate-games/nate-games.github.io/assets/131909495/487e0c8a-e5e5-414f-971b-6665161a799e)
