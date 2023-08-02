@@ -10,7 +10,7 @@
 <p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
 
 > **Note**
-> **Updates will continue this thursday as of 8/3/23**
+> **Updates will continue tomorrow as of 8/2/23**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
