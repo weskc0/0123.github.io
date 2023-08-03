@@ -1,4 +1,3 @@
-[![opengraph](https://opengraph.githubassets.com/unblocked-games/nate-games/nate-games.github.io)](https://bit.ly/nate-games)
 <p align="center">
 <kbd>
 <a href="https://bit.ly/nate-games">
