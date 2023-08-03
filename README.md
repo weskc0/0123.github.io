@@ -22,4 +22,3 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - Three.js
 - Clean UI
 - [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt)
-- [Open](https://vscode.dev/github/nate-games/nate-games.github.io) with vscode [web version]
