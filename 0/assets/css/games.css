@@ -83,7 +83,7 @@ button {
     border-radius: 20px;
 }
 
-.game-card:hover {
+.game-card:active {
     transform: scale(0.95);
 }
 
