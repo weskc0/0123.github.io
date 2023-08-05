@@ -72,20 +72,19 @@ button {
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
-    font-size: 11px;
+    font-size: 9.4px;
 }
 
 .game-card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    /* or object-fit: contain; */
     margin-bottom: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .game-card:hover {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .game-container {
