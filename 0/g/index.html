@@ -5,45 +5,8 @@
     <title>𝗚𝗔𝗠𝗘𝗦 | nate-games</title>
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
     <link rel="stylesheet" href="../assets/css/games.css" />
-    <style>
-        .search-input {
-            margin-top: 10px;
-            border-radius: 30px;
-            border: none;
-            width: 25%;
-            height: 60px;
-            background-color: rgba(30, 30, 30, 0.8);
-            color: white;
-            text-align: center;
-            font-size: 24px;
-            outline: none;
-            font-family: Arial, sans-serif;
-        }
-        
-        .search-input::placeholder {
-            opacity: 1;
-        }
-    </style>
-    <script>
-        function search() {
-            var input = document.getElementById("search-bar").value.toLowerCase();
-            if (input === "") {
-                location.reload(); // Reload the page when the search bar is empty
-            } else {
-                var cards = document.getElementsByClassName("game-card");
-                for (var i = 0; i < cards.length; i++) {
-                    var title = cards[i]
-                        .getElementsByTagName("h3")[0]
-                        .innerText.toLowerCase();
-                    if (title.indexOf(input) > -1) {
-                        cards[i].style.display = "";
-                    } else {
-                        cards[i].style.display = "none";
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js"></script>
 </head>
 
 <body>
@@ -120,7 +83,7 @@
             <h3>Bottle Flip 3D</h3>
         </div>
         <div class="game-card" onclick="window.location.href='tiny-fishing/'">
-            <img src="https://lh5.googleusercontent.com/m5o1cwqKF73Xc6wsMLh2oi04inoF7Quxc26rKbelSEqB92COaEtwRodmhUEs5Dcqkzu0kuWg9AgRLQ_Np57gWuV3a00bAgJdOfKz-0ugvI6eQtY_HHu94L3rP5CxQjRAOg=w1280" />
+            <img src="tiny-fishing/splash.png" />
             <h3>Tiny Fishing</h3>
         </div>
         <div class="game-card" onclick="window.location.href='/0/g/whg/'">
@@ -343,7 +306,7 @@
             <img src="https://play-lh.googleusercontent.com/oObkhKfUXOY5yzheKe9w1Y1pXZBgdiSksMeNmT0BijoQ8J75maTCIW2TA7-6pA6EMA" />
             <h3>Slither.io</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='./sltiherscratch/'">
+        <div class="game-card" onclick="window.location.href='./slitherscratch/'">
             <img src="https://art.pixilart.com/284b3bd3efb44fd.png" />
             <h3>Slither.io (Scratch)</h3>
         </div>

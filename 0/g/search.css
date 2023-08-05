@@ -1,0 +1,17 @@
+.search-input {
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 25%;
+    height: 60px;
+    background-color: rgba(30, 30, 30, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+.search-input::placeholder {
+    opacity: 1;
+}
