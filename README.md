@@ -9,7 +9,7 @@
 <p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
 
 > **Note**
-> **Most flash games will switch to waflash**
+> **For security reasons, Discord was removed, no longer functional.**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
