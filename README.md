@@ -5,7 +5,7 @@
 </kbd>
 </p>
 
-<h1 align="center">nate-games.github.io</h1>
+<h1 align="center">nate-games</h1>
 <p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
