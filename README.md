@@ -9,7 +9,7 @@
 <p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
-> **For security reasons, Discord was removed, no longer functional.**
+> **Proxies/Unblockers Removed 😔**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
