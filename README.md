@@ -9,7 +9,9 @@
 <p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
 
 > **Note**
-> **For security reasons, Discord was removed, no longer functional.**
+> **Proxies may be removed...**
+
+Its against GitHubs Terms of Service, & if I want the website to get more popular I have to remove it...
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
