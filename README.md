@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">nate-games</h1>
-<p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
+<p align="center">The best unblocked games website.</p>
 
 > **Note**
 > **For security reasons, Discord was removed, no longer functional.**
