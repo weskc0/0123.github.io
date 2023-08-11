@@ -6,12 +6,10 @@
 </p>
 
 <h1 align="center">nate-games</h1>
-<p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
+<p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
-> **Proxies may be removed...**
-
-Its against GitHubs Terms of Service, & if I want the website to get more popular I have to remove it...
+> **For security reasons, Discord was removed, no longer functional.**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
