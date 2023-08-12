@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="../assets/css/games.css">
     <meta charset="UTF-8">
+    <script src="/0/assets/js/tos.js"></script>
+    <link rel="stylesheet" href="/0/assets/css/tos.css">
     <title>Flash Opener | nate-games</title>
     <script src="assets/ruffle.js"></script>
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
@@ -34,7 +36,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            height: 90vh;
         }
         
         .button-container {
@@ -71,7 +73,29 @@
     </style>
 </head>
 
-<body>
+<body onload="checkTOS()">
+    <div id="tos-overlay">
+        <div id="tos-box">
+          <h2>Terms of Service</h2>
+          <br>
+          <p>Cookie consent: <br><br> We rely on cookies to save
+            game data. Disabling cookies will prevent our site from saving your game progress, passwords, high
+            scores, etc, cookies do not contain any of your personal information.
+            <br><br><br> Copyright Procedure: <br><br> Don't copy our games this can prevent Digital Millennium Copyright
+            Act (DMCA) it's a copyright law. If you don't know what that means:
+            it's illegal, don't risk it. <a href="https://www.copyright.gov/dmca/" target="_blank"
+              style="text-decoration: none; color: rgba(255, 255, 255, 0.5);">Read more...</a> <br><br> <a
+              style="color: red;">*</a> Do you accept?
+          </p>
+          <p><a style="text-decoration: none;" href="javascript:void(0);"
+              onclick="window.location.href='/0/privacy.html?policy'">Privacy Policy</a> &bull; <a
+              href="javascript:void(0);"
+              onclick="window.open('https://github.com/nate-games/nate-games.github.io/releases/tag/v1.52', '_blank'); return false;"
+              style="text-decoration: none;" target="_blank">v1.52</a></p>
+          <button onclick="acceptTOS()" class="bn5" style="margin-top: 25px;">I Accept</button>
+        </div>
+      </div>
+      <div id="content">
     <header class="header">
         <div class="logo">
             <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
@@ -86,11 +110,8 @@
     </header>
 
     <div class="container">
-        <h1>Flash Opener</h1>
-        <p>Supports (*.swf .spl)</p>
-
+        <h2 style="font-size: 30px;">Flash Opener</h2>
         <div id="flash-container"></div>
-
         <div class="button-container">
             <label for="file-input" class="file-input-button">Select File</label>
             <input type="file" id="file-input" style="display: none;" onchange="handleFileChange(event)" accept=".swf, .spl">
@@ -137,6 +158,7 @@
             }
         }
     </script>
+    </div>
 </body>
 
 </html>
