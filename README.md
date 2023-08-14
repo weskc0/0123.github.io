@@ -1,3 +1,5 @@
+![nate-games.github.io](https://socialify.git.ci/nate-games/nate-games.github.io/image?font=Jost&issues=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
+Generated with [socialify.git.ci](https://socialify.git.ci)
 <p align="center">
 <kbd>
 <a href="https://bit.ly/nate-games">
