@@ -24,3 +24,11 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - Three.js
 - Clean UI
 - [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt)
+
+# Libraries used
+- jsDelivr [GitHub migration](https://www.jsdelivr.com/github)
+- Google [font API](https://fonts.google.com/)
+- [waflash](https://github.com/nate-games/waflash) flash emulator
+- [ruffle-rs](https://ruffle.rs/) flash emulator
+- [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)
+- Google [AdSense API](https://www.google.com/adsense)
