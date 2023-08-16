@@ -31,4 +31,5 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - [waflash](https://github.com/nate-games/waflash) flash emulator
 - [ruffle-rs](https://ruffle.rs/) flash emulator
 - [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)
+- [EmulatorJS Demo](https://demo.emulatorjs.org/)
 - Google [AdSense API](https://www.google.com/adsense)
