@@ -1,5 +1,3 @@
-![nate-games.github.io](https://socialify.git.ci/nate-games/nate-games.github.io/image?font=Jost&issues=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
-Generated with [socialify.git.ci](https://socialify.git.ci)
 <p align="center">
 <kbd>
 <a href="https://bit.ly/nate-games">
@@ -11,7 +9,7 @@ Generated with [socialify.git.ci](https://socialify.git.ci)
 <p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
-> **Proxies/Unblockers Removed 😔**
+> **v1.60 out now!**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 

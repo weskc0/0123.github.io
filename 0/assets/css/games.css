@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #111;
+    background-color: #171717;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,7 +11,6 @@ body {
 
 .header {
     background-color: #0f0f0f;
-    /* Updated header background color to a shade in between #222 and #111 */
     color: #fff;
     padding: 10px;
     display: flex;
@@ -63,38 +62,50 @@ button {
 }
 
 .game-card {
-    border-radius: 5px;
-    padding: 10px;
-    margin: 5px;
-    width: calc(10% - 20px);
-    height: 250px;
+    border-radius: 18%;
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.1s;
-    font-size: 9.4px;
+    transition: all 0.2s;
 }
 
 .game-card img {
-    width: 100px;
-    height: 100px;
+    height: 175px;
+    width: 175px;
     object-fit: cover;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 18%; 
+    transition: 0.3s;
 }
 
+.game-card img:hover {
+    transform: scale(.9);
+}
+
+.game-card h3 {
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.game-card:hover {
+    background-color: #4287f5;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.9);
+}
 .game-card:active {
-    transform: scale(0.95);
+    transform: scale(.9);
 }
 
 .game-container {
     text-align: center;
-}
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 175px);
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    grid-gap: 32px;
 }
 
 .back {
