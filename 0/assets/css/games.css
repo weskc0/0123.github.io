@@ -1,3 +1,5 @@
+@import url(image-container.css);
+
 body {
     margin: 0;
     padding: 0;
@@ -67,19 +69,6 @@ button {
     text-align: center;
     cursor: pointer;
     transition: all 0.2s;
-}
-
-.game-card img {
-    height: 175px;
-    width: 175px;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border-radius: 18%; 
-    transition: 0.3s;
-}
-
-.game-card img:hover {
-    transform: scale(.9);
 }
 
 .game-card h3 {
