@@ -5,18 +5,7 @@ function getParameterByName(name, url) {
         results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
-
-    var customMappings = {
-        'cosmic': 'https://cosmic-city.github.io',
-        'github': 'https://github.com',
-        // FOR SPONSORS ONLY
-    };
-
-    if (customMappings.hasOwnProperty(results[2])) {
-        return customMappings[results[2]];
-    } else {
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 var target = getParameterByName('redirect');
