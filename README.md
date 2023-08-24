@@ -9,7 +9,7 @@
 <p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
-> **v1.60 out now!**
+> **nate-gamed X CrazyGames 👀**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
