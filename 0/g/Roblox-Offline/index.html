@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <div id="content">
     <header class="header">
         <div class="logo">
             <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
@@ -20,23 +21,26 @@
             <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
         </nav>
     </header>
-    <p>At school? Click <a href="inde.html?x">here</a> to unblock.</p>
+    <p>At school? Click <a href="?unblocked">here</a> to unblock.</p>
     <div class="game-container">
             <div class="game-card" onclick="window.location.href='./hq/'">
-                <img src="https://tr.rbxcdn.com/1ebb2fda7c8319ba83e9f03e6aa05bf3/768/432/Image/Png" />
+                <div class="image-container"><img src="https://tr.rbxcdn.com/1ebb2fda7c8319ba83e9f03e6aa05bf3/768/432/Image/Png" /></div>
                 <h3>Roblox HQ</h3>
                 <p>By: nate-games</p>
             </div>
             <div class="game-card" onclick="window.location.href='./crossroads/'">
-                <img src="https://tr.rbxcdn.com/ce169363b2d2f4249e9ff663ed3e9efa/500/280/Image/Jpeg" />
+                <div class="image-container">
+                <img src="https://tr.rbxcdn.com/ce169363b2d2f4249e9ff663ed3e9efa/500/280/Image/Jpeg" /></div>
                 <h3>Crossroads</h3>
                 <p>By: nate-games</p>
             </div>
             <div class="game-card" onclick="window.location.href='./editor/'">
-                <img src="./editor/logo.svg" />
+                <div class="image-container"><img src="./editor/logo.svg" /></div>
                 <h3>Roblox Studio</h3>
                 <p>By: YOU</p>
             </div>
+        </div>
+    </div>
+        <script src="main.js"></script>
 </body>
-
 </html>

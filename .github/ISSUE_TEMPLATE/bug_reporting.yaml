@@ -16,6 +16,7 @@ body:
     id: url
     attributes:
       label: Page URL
+      id: page-url
       description: Where did the Error occur?
       placeholder: https://example.com/home
     validations:

@@ -56,15 +56,6 @@
     margin-top: 0;
 }
 
-.iframe-container {
-    width: 455px;
-    height: 155px;
-    margin-bottom: -2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .iframe-container iframe {
     border: none;
     overflow: hidden;
