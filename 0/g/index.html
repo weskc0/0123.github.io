@@ -28,7 +28,7 @@
               style="color: red;">*</a> Do you accept?
           </p>
           <p><a style="text-decoration: none;" href="javascript:void(0);"
-              onclick="window.location.href='/0/privacy.html?policy'">Privacy Policy</a> &bull; <a
+              onclick="window.location.href='/0/privacy-policy.html'">Privacy Policy</a> &bull; <a
               href="javascript:void(0);"
               onclick="window.open('https://github.com/nate-games/nate-games.github.io/releases/tag/v1.52', '_blank'); return false;"
               style="text-decoration: none;" target="_blank"></a></p>
@@ -54,12 +54,47 @@
             </button>
         </nav>
     </header>
+    <script>
+        fetch('games.json')
+.then(response => response.json())
+.then(data => {
+    const gameContainer = document.getElementById('game-container');
+
+    data.forEach(game => {
+        const gameCard = document.createElement('div');
+        gameCard.classList.add('game-card');
+        gameCard.onclick = function() {
+            window.location.href = game.url;
+        };
+
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-container');
+
+        const img = document.createElement('img');
+        img.src = game.imageSrc;
+        img.onerror = function() {
+            this.src = '/image-placeholder.svg';
+        };
+
+        const p = document.createElement('p');
+        p.textContent = game.name;
+
+        imageContainer.appendChild(img);
+        gameCard.appendChild(imageContainer);
+        gameCard.appendChild(p);
+        gameContainer.appendChild(gameCard);
+    });
+})
+.catch(error => {
+    console.error('Error loading JSON data:', error);
+});
+    </script>
     <center>
         <input type="text" id="search-bar" placeholder="Search..." oninput="search()" class="search-input" />
     </center>
-    <div class="game-container">
+    <div class="game-container" id="game-container">
         <!--onerror="this.src='https://www.livenirvana.com/demotapes/images/no-image.png'" DEFAULT: onerror="this.src='../../static/image-placeholder.svg'"-->
-        <div class="game-card" onclick="window.location.href='https://github.com/nate-games/nate-games.github.io/issues/new/choose'">
+        <div class="game-card" onclick="window.location.href='https://github.com/nate-games/nate-games.github.io/issues/new?assignees=nate-games&labels=Add-Game&projects=&template=add_game.yaml&title=%5BGame+Recommendation%5D%3A+%3Ctitle%3E'">
             <div class="image-container">
             <img src="request-svg.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Add a game!</h3>
@@ -76,7 +111,7 @@
             <div class="image-container"><img src="./just-fall/unnamed.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>JustFall.LOL</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='/0/g/Roblox/'">
+        <div class="game-card" onclick="window.location.href='/game/?roblox'">
             <div class="image-container"><img src="./Roblox/splash.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Roblox</h3>
         </div>
@@ -84,7 +119,7 @@
             <div class="image-container"><img src="./Roblox-Offline/splash.svg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Roblox (WebGL)</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='/0/g/cluster-rush/'">
+        <div class="game-card" onclick="window.location.href='/game/?cluster-rush'">
             <div class="image-container"><img src="https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Cluster Rush</h3>
         </div>
@@ -236,12 +271,16 @@
             <div class="image-container"><img src="papas-doggeria/image.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Papa's Hot Doggeria</h3>
         </div>
+        <div class="game-card" onclick="window.location.href='/game/?papas-burgeria'">
+            <div class="image-container"><img src="https://play-lh.googleusercontent.com/rHJuY78XSJrhbaW39aYNhViggnzCgR5Zu-xfIx7Sga0Y3Tv3iIuGIIgvEMqfI5Kn" onerror="this.src='../../static/image-placeholder.svg'"/></div>
+            <h3>Papa's Burgeria</h3>
+        </div>
         <div class="game-card" onclick="window.location.href='/0/g/couch2048/'">
             <div class="image-container"><img src="./couch2048/game/splash.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Couch 2048 (Physics)</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='/0/g/2048/'">
-            <div class="image-container"><img src="./2048/game/2048.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
+        <div class="game-card" onclick="window.location.href='/game/?2048'">
+            <div class="image-container"><img src="./2048/2048.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>2048</h3>
         </div>
         <div class="game-card" onclick="window.location.href='/0/g/2048-multitask/'">
@@ -332,6 +371,10 @@
             <div class="image-container"><img src="./particleclicker/game/splash.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Particle Clicker</h3>
         </div>
+        <div class="game-card" onclick="window.location.href='/game/?doge-miner'">
+            <div class="image-container"><img src="./doge-miner/ymzwlane.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
+            <h3>Doge Miner</h3>
+        </div>
         <div class="game-card" onclick="window.location.href='./fruitninja/'">
             <div class="image-container"><img src="https://yt3.googleusercontent.com/ytc/AGIKgqMRFpsditeb0jRlTO0fOflkCfh4q0e2_SHGDLae6Q=s900-c-k-c0x00ffffff-no-rj" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Fruit Ninja
@@ -339,7 +382,7 @@
         </div>
         <div class="game-card" onclick="window.location.href='./fruitninja-js/'">
             <div class="image-container"><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/d4/f2/42/d4f242ac-c110-eb29-86df-cc5eec2a8488/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Fruit Ninja (JavaScri...
+            <h3>Fruit Ninja (JavaScript)
             </h3>
         </div>
         <div class="game-card" onclick="window.location.href='./circle/'">
@@ -542,6 +585,10 @@
             <div class="image-container"><img src="https://cdn.vox-cdn.com/thumbor/Ro8tFMu3c3LGSAbd-mMDNuvu01Q=/0x0:1301x1000/1200x800/filters:focal(547x396:755x604)/cdn.vox-cdn.com/uploads/chorus_image/image/55505037/pac_man_vs.0.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Pacman (NES)</h3>
         </div>
+        <div class="game-card" onclick="window.location.href='/game/?gacha-club'">
+            <div class="image-container"><img src="./gacha-club/5yoczcli.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
+            <h3>Gacha Club</h3>
+        </div>
         <div class="game-card" onclick="window.location.href='/0/g/baldisbasics/'">
             <div class="image-container"><img src="https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Baldi's Basics</h3>
@@ -702,77 +749,12 @@
             <div class="image-container"><img src="getaway-shootout/unnamed.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
             <h3>Getaway Shootout</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='./vex-3/'">
-            <div class="image-container"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Vex 3</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./vex-4/'">
-            <div class="image-container"><img src="vex-4/unnamed.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Vex 4</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./vex-5/'">
-            <div class="image-container"><img src="./vex-5/game/vex.jpeg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Vex 5</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./vex-6/'">
-            <div class="image-container"><img src="./vex-6/game/assets/icon.jpeg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Vex 6</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./vex-7/'">
-            <div class="image-container"><img src="./vex-7/game/assets/icon.jpeg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Vex 7</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./big-tower/'">
-            <div class="image-container"><img src="big-tower/splash.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Big Tower</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./big-tower2/'">
-            <div class="image-container"><img src="big-tower2/splash.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Big Tower 2</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./big-flappy-tower/'">
-            <div class="image-container"><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/a1/31/91/a1319179-81e4-4fc5-9c23-5e9f64199966/source/512x512bb.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Big Flappy Tower</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./big-neon-tower/'">
-            <div class="image-container"><img src="big-neon-tower/unnamed.jpg" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Big Neon Tower</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='./duck-life/'">
-            <div class="image-container"><img src="https://play-lh.googleusercontent.com/AUGkRrKMtUCLVE9vCvlfMY9Ny9EBqzx17yejVtEEhvpkw-H6lJlvBHgCMqPJm8HV_tM" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Duck Life</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='hs/'">
-            <div class="image-container"><img src="hs/splash.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Henry Stickmin</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='hs2/'">
-            <div class="image-container"><img src="hs2/splash.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Henry Stickmin 2</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='hs3/'">
-            <div class="image-container"><img src="hs3/splash.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Henry Stickmin 3</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='hs4/'">
-            <div class="image-container"><img src="hs4/splash.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Henry Stickmin 4</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='hs5/'">
-            <div class="image-container"><img src="hs5/splash.bmp" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Henry Stickmin 5</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='awesometanks/'">
-            <div class="image-container"><img src="awesometanks/game/game.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Awesome Tanks</h3>
-        </div>
-        <div class="game-card" onclick="window.location.href='awesometanks-2/'">
-            <div class="image-container"><img src="awesometanks-2/game/game.png" onerror="this.src='../../static/image-placeholder.svg'"/></div>
-            <h3>Awesome Tanks 2</h3>
-        </div>
-    </div>
+
     <!--note to myself: The div below is for the TOS don't touch it!-->
 </div>
+<footer style="margin-bottom: 4em; margin-top: 9em;">
+    <center>&copy; 2023 nate-games<br><br><a href="https://github.com/nate-games/nate-games.github.io/blob/main/SECURITY.md">Security Policy</a> &bull; <a href="/0/privacy-policy.html">Privacy Policy</a> &bull; <a href="/0/terms-of-service.html">Terms of Service</a> &bull; <a href="https://github.com/nate-games/nate-games.github.io/wiki">Wikipedia/Docs</a></center>
+</footer>
 </body>
 
 </html>

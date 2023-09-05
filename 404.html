@@ -2,36 +2,28 @@
 <html>
 
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3677355919124486"
-    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/0/assets/css/menu.css">
     <link rel="icon" type="image/png" href="/0/assets/img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="/0/assets/css/bg.css">
-    <title>404 | nate-games</title>
+    <title>404 | Page not found</title>
     <style>
-        .container2 {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #171717;
+            overflow: hidden;
         }
-        
-        .container {
-            padding: 40px;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 8px;
+
+        #path {
+            font-weight: bolder;
         }
-        
-        h1 {
-            color: #333;
+
+        .main {
+            font-size: 16px;
+            font-weight: bold;
         }
-        
-        p {
-            color: #666;
-        }
-        
+
+
         .buttons {
             display: inline-block;
             padding: 10px 20px;
@@ -41,9 +33,24 @@
             border-radius: 4px;
             transition: background-color 0.3s;
         }
-        
+
         .buttons:hover {
             background-color: #bbb;
+        }
+
+        .container2 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -56,19 +63,30 @@
         <nav class="menu">
             <button class="menu-item" onclick="window.location.href='/0/g/'">Games</button>
             <button class="menu-item" onclick="window.location.href='/0/a/'">
-        Apps
-      </button>
+                Apps
+            </button>
             <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
         </nav>
     </header>
     <div class="container2">
         <div class="container">
-            <h1>404 Page not found.</h1>
-            <p>Oops! The page you are looking for wasnt found.</p>
+            <h2>404 | Page not found.</h2>
+            <p>Sorry, The URL <span id="path"></span> was <br> not found on this server or you don't have access.</p>
             <a class="buttons" href="/">Home</a>
             <a class="buttons" href="/0/g/">Games</a>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let path = window.location.pathname;
+
+            if (window !== window.parent) {
+                path = window.parent.location.pathname;
+            }
+
+            document.getElementById('path').textContent = path;
+        });
+    </script>
 </body>
 
 </html>
