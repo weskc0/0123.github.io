@@ -9,7 +9,7 @@
 <p align="center">190+ games & apps. The new best unblocked games site. </p>
 
 > **Note**
-> **whoever bought nate-games.com domain dm me nate.games on discord**
+> **Preparing for a new UI!**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
