@@ -18,16 +18,12 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - Search bar
 - Adobe Flash
 - HTML5 Games
-- WebGL/Unity
-- Three.js
+- WebGL/Unity games
 - Clean UI
-- [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt)
 
 # Libraries used
 - jsDelivr [GitHub migration](https://www.jsdelivr.com/github)
-- Google [font API](https://fonts.google.com/)
 - [waflash](https://github.com/nate-games/waflash) flash emulator
 - [ruffle-rs](https://ruffle.rs/) flash emulator
 - [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)
 - [EmulatorJS Demo](https://demo.emulatorjs.org/)
-- Google [AdSense API](https://www.google.com/adsense)
