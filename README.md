@@ -22,8 +22,7 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.github.io
 - Clean UI
 
 # Libraries used
-- jsDelivr [GitHub migration](https://www.jsdelivr.com/github)
+- jsDelivr cdn
 - [waflash](https://github.com/nate-games/waflash) flash emulator
 - [ruffle-rs](https://ruffle.rs/) flash emulator
 - [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)
-- [EmulatorJS Demo](https://demo.emulatorjs.org/)
