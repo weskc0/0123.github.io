@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
-<!--Terms of Service, requirements-->
 <head>
-  <script src="/0/assets/js/tos.js"></script>
   <link rel="stylesheet" href="/0/assets/css/tos.css">
 </head>
-
 <body onload="checkTOS()">
   <div id="tos-overlay">
     <div id="tos-box">
-      <h2>Terms of Service</h2>
+      <h2 id="tos-title">Terms of Service</h2>
       <br>
-      <p>Cookie consent: <br><br> We rely on cookies to save
-        game data. Disabling cookies will prevent our site from saving your game progress, passwords, high
-        scores, etc, cookies do not contain any of your personal information.
-        <br><br><br> Copyright Procedure: <br><br> Don't copy our games this can prevent Digital Millennium Copyright
-        Act (DMCA) it's a copyright law. If you don't know what that means:
-        it's illegal, don't risk it. <a href="https://www.copyright.gov/dmca/" target="_blank"
-          style="text-decoration: none; color: rgba(255, 255, 255, 0.5);">Read more...</a> <br><br> <a
-          style="color: red;">*</a> Do you accept?
-      </p>
-      <p><a style="text-decoration: none;" href="javascript:void(0);"
-          onclick="window.location.href='/0/privacy.html?policy'">Privacy Policy</a> &bull; <a
-          href="javascript:void(0);"
-          onclick="window.open('https://github.com/nate-games/nate-games.github.io/releases/tag/v1.52', '_blank'); return false;"
-          style="text-decoration: none;" target="_blank">v1.52</a></p>
+      <div id="tos-content">
+        <!-- JSON content will be inserted here -->
+      </div>
+      <p><a style="text-decoration: none;" href="javascript:void(0);" onclick="window.location.href='/0/privacy-policy.html'">Privacy Policy</a> &bull; <a href="javascript:void(0);" onclick="window.open('https://github.com/nate-games/nate-games.github.io/releases/latest', '_blank'); return false;" style="text-decoration: none;" target="_blank">Latest</a></p>
       <button onclick="acceptTOS()" class="bn5" style="margin-top: 25px;">I Accept</button>
     </div>
   </div>
   <div id="content">
-    Anything inside the "&lt;div id="content"&gt;&lt;/div&gt;" cannot be interacted until accepted.
-<br>
-<br>
-    &copy; 2023 nate-games, All rights reserved. 
   </div>
-
+  <script>
+    function showTOS() {
+      const tosOverlay = document.getElementById('tos-overlay');
+      tosOverlay.style.display = 'flex';
+    }
+  
+    function acceptTOS() {
+      const tosOverlay = document.getElementById('tos-overlay');
+      tosOverlay.style.display = 'none';
+      localStorage.setItem('acceptedTOS', 'true');
+    }
+  
+    function checkTOS() {
+      if (!localStorage.getItem('acceptedTOS')) {
+        showTOS();
+        fetch('tos.json')
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('tos-title').textContent = data.title;
+            const tosContent = document.getElementById('tos-content');
+            tosContent.innerHTML = '';
+            data.sections.forEach(section => {
+              const sectionElement = document.createElement('div');
+              sectionElement.innerHTML = `<p>${section.title}</p><p>${section.content}</p>`;
+              tosContent.appendChild(sectionElement);
+            });
+            const acceptanceQuestion = document.createElement('p');
+            acceptanceQuestion.innerHTML = `${data.acceptanceQuestion} <a style="color: red;">*</a>`;
+            tosContent.appendChild(acceptanceQuestion);
+          })
+          .catch(error => console.error('Error fetching TOS content:', error));
+      }
+    }
+  </script>
 </body>
-
 </html>

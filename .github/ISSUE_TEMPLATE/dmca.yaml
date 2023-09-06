@@ -27,7 +27,7 @@ body:
       description: Prove that you own this game
     validations:
       required: true
-        - type: textarea
+  - type: textarea
     id: permission
     attributes:
       label: Permission
