@@ -17,7 +17,7 @@ body {
 #embed-container {
     position: relative;
     width: 1200px;
-    height: 675px;
+    height: calc(675px - 50px);
 }
 
 #embed-container iframe {
@@ -40,6 +40,7 @@ body {
     cursor: pointer;
     transition: .2s;
     border-radius: 0;
+    margin-bottom: -50px;
 }
 
 #fullscreen-button:hover {
@@ -73,6 +74,8 @@ body {
     z-index: 9998;
     user-select: none;
     overflow: hidden;
+    bottom: 0px;
+    margin-bottom: -50px;
 }
 
 .game-title {
@@ -115,6 +118,7 @@ body {
     font-family: Arial, sans-serif;
     transition: all 0.1s;
     box-shadow: 0px 10px 0px #000;
+    margin-top: 50px;
 }
 
 .button3d:active {

@@ -6,10 +6,10 @@
 </p>
 
 <h1 align="center">nate-games</h1>
-<p align="center">190+ games & apps. The new best unblocked games site. </p>
+<p align="center">Preparing for a new UI! 197 games & apps 3 more to get 200!</p>
 
 > **Note**
-> **Preparing for a new UI!**
+> **NEED to submit DMCA? Please don't immediately report us, send an issue!**
 
 Website blocked? View [links](https://github.com/nate-games/nate-games.github.io/wiki/URLS)
 
