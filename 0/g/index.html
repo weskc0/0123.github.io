@@ -11,6 +11,10 @@
     <script src="/0/assets/js/tos.js"></script>
     <script src="/0/assets/js/nodrag.js"></script>
     <link rel="stylesheet" href="/0/assets/css/tos.css">
+    <style> 
+    .adblocker {text-align: center; padding-left: 100% 0 0; margin: 0; justify-content: center; display: flex; overflow: hidden;background-color: #222; height: 180px; width: 640px; border-radius: 10px; margin: 4em 0 4em; border: 1px solid #000;}
+    .adblocker .adblock-text {width: 350px; margin: 20px;}
+    .adblocker img {margin: 20px;}</style>
 </head>
 
 <body onload="checkTOS()">
@@ -103,6 +107,7 @@ fetch('games.json')
 
     </script>
     <center>
+      <div class="adblocker"><img src="./adblocker.png" height="140"><span class="adblock-text"><h2>Hello user!</h2><p>We appreciate your visit! To help keep our content free, please consider disabling your adblocker. Our ads are non-intrusive and support our site. Thank you for your support!</p><br><span style="text-decoration: none; color: #2863c2; cursor: pointer;">Do not sell my personal information</span></span><br></div>
         <input type="text" id="search-bar" placeholder="Search..." oninput="search()" class="search-input" />
         <p>Need to take down your game? <a href="javascript:Open DMCA in new window;" onclick="window.open('https://github.com/nate-games/nate-games.github.io/issues/new?assignees=nate-games&labels=DMCA&projects=&template=dmca.yaml&title=[DMCA]:<title>', '_blank', 'width=800,height=600'); return false;">DMCA</a> (Opens in a new window)</p>
     </center>
